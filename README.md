@@ -6,7 +6,7 @@ The project aims to develop an entrance gate system capable of fully recognizin 
 2. Recognizing the company logo.
 3. Reading and interpreting the car's number plate.
 
-The classification algorithm utilizes transfer learning and fine-tuning of the Inception-v3 network [1][2] with the Cars Dataset from Stanford [3]. The Keras implementation of Inception-v3 was employed [4]. The final model can recognize 195different classes of cars with an overall accuracy of 81%. Each class name includes the company name, model, type, and year of production.
+The classification algorithm utilizes transfer learning and fine-tuning of the Inception-v3 network [1][2] with the Cars Dataset from Stanford [3]. The Keras implementation of Inception-v3 was employed [4]. The final model can recognize 195 different classes of cars with an overall accuracy of 85%. Each class name includes the company name, model, type, and year of production.
 
 ### Training Your Own Model
 
